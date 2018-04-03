@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <!-- Button3: "Seite zurück" -->
+    <Button
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_columnSpan="1"
+        android:id="@+id/button3"
+        android:drawableLeft="@drawable/backarrow"
+        android:background="#00FFFFFF"
+        android:gravity="" />
+
+        <!-- Überschrift -->
+    <TextView
+        android:layout_width="271dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_columnSpan="1"
+        android:background="#00FFFFFF"
+        android:drawableLeft="@drawable/settingimg"
+        android:gravity=""
+        android:text="Einstellungen"
+        android:textColor="#000"
+        android:textSize="45px"
+        android:textStyle="bold" />
+</RelativeLayout>
+
+
+
+
+
+</LinearLayout>
